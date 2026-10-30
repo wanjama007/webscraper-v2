@@ -1,0 +1,9 @@
+{
+  "url": "https://quotes.toscrape.com/",
+  "item_selector": ".quote",
+  "fields": {"text": ".text", "author": ".author", "author_url": "a@href", "tags": ".tags"},
+  "next_page_selector": "li.next a",
+  "max_pages": 3,
+  "output_format": "csv",
+  "delay_seconds": 0.5
+}
